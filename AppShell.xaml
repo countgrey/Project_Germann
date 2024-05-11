@@ -7,9 +7,24 @@
     Shell.FlyoutBehavior="Disabled"
     Title="German_Project">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <TabBar>
+        <Tab Title="Объявления" Icon="home">
+            <ShellContent
+                ContentTemplate="{DataTemplate local:Ads}"
+                Route="MainPage"/>
+        </Tab>
+
+        <Tab Title="Расписание" Icon="home">
+            <ShellContent
+                ContentTemplate="{DataTemplate local:MainPage}"
+                Route="MainPage"/>
+        </Tab>
+        
+        <Tab Title="Настройки" Icon="home">
+            <ShellContent
+        ContentTemplate="{DataTemplate local:Settings}"
+        Route="MainPage"/>
+        </Tab>
+    </TabBar>
 
 </Shell>
