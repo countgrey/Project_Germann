@@ -8,23 +8,21 @@
     Title="German_Project">
 
     <TabBar>
-        <Tab Title="Объявления" Icon="home">
+        <!--<Tab Title="Объявления" Icon="home">
             <ShellContent
-                ContentTemplate="{DataTemplate local:Ads}"
-                Route="MainPage"/>
-        </Tab>
+                ContentTemplate="{DataTemplate local:Ads}"/>
+        </Tab>-->
 
         <Tab Title="Расписание" Icon="home">
             <ShellContent
-                ContentTemplate="{DataTemplate local:MainPage}"
-                Route="MainPage"/>
+                x:Name="Schedule"
+                ContentTemplate="{DataTemplate local:MainPage}"/>
         </Tab>
-        
-        <Tab Title="Настройки" Icon="home">
-            <ShellContent
-        ContentTemplate="{DataTemplate local:Settings}"
-        Route="MainPage"/>
-        </Tab>
+
+        <!--<Tab Title="Настройки" Icon="home">
+                    <ShellContent
+            ContentTemplate="{DataTemplate local:Settings}"/>
+        </Tab>-->
     </TabBar>
 
 </Shell>

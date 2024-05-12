@@ -35,7 +35,7 @@
                    Margin="10"
                    BorderColor="DarkRed"
                    Padding="0">
-                <StackLayout>
+                <StackLayout x:Name="MainStackForSchedule"><!--
                     <Frame BackgroundColor="#802bd4" CornerRadius="15" BorderColor="#802bd4" Margin="0,0,0,10">
                         <StackLayout>
                             <StackLayout Orientation="Horizontal">
@@ -81,7 +81,7 @@
                             </StackLayout>
                         </StackLayout>
                     </Frame>
-                </StackLayout>
+                --></StackLayout>
             </Frame>
 
             <Button Clicked="updateButton"
