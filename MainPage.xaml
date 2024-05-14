@@ -15,18 +15,14 @@
                             FontSize="Large"
                             FontAttributes="Bold"
                             FontFamily="Open Sans MS"
-                            TextColor="AliceBlue">
-                        МДК 01.02
-                    </Label>
-                
+                            TextColor="AliceBlue"/>
+
                     <Label
                         x:Name="endsIn"
                         FontSize="Large"
                         FontAttributes="Bold"
                         FontFamily="Open Sans MS"
-                        TextColor="DarkGrey">
-                        5 мин
-                    </Label>
+                        TextColor="DarkGrey"/>
                 </StackLayout>
             </Frame>
 
